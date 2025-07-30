@@ -1,0 +1,35 @@
+<nav class="navbar navbar-expand-sm bg-dark "  data-bs-theme="dark">
+  <div class="container">
+    <a class="navbar-brand" routerLink="/users">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="/users">Home</a>
+        </li>
+        @if (login.isAuth) {
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/users/create">New User</a>
+          </li>
+        }
+      </ul>
+    </div>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAuth">
+      <span class="nav-item nav-link  text-primary mx-3">
+        @if(login.isAuth){
+          <!-- <pre>
+            login: {{ login | json }}
+          </pre> -->
+          <span class="text-white">Welcome, {{ login.user.username }}!</span>
+          <a class="btn btn-outline-danger mx-3" (click)="handlerLogout()">Logout</a>
+        } @else {
+          <!-- <span class="text-white">Please sign in</span> -->
+          <a class="btn btn-outline-primary" routerLink="/login">Sign In</a>
+        }
+      </span>
+
+    </div>
+  </div>
+</nav>

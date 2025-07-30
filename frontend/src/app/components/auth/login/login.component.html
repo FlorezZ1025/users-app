@@ -1,0 +1,35 @@
+<div class="card">
+  <div class="card-header">
+    <h5 class="card-title">Login Page</h5>
+  </div>
+
+  <div class="card-body">
+    <form (ngSubmit)="onSubmit()">
+      <div class="mb-3">
+        <label for="username" class="form-label">Username</label>
+        <input
+          type="text"
+          class="form-control my-2 w-25"
+          id="username"
+          placeholder="Username"
+          [(ngModel)]="user.username"
+          name="username"
+          required
+        />
+      </div>
+      <div class="mb-3">
+        <label for="password" class="form-label">Password</label>
+        <input
+          type="password"
+          class="form-control my-2 w-25"
+          id="password"
+          placeholder="Password"
+          [(ngModel)]="user.password"
+          name="password"
+          required
+        />
+      </div>
+      <button type="submit" class="btn btn-primary">Login</button>
+    </form>
+  </div>
+</div>
