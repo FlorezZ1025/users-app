@@ -1,0 +1,16 @@
+C:\Users\SANTIAGO\OneDrive\Escritorio\udemy\users-app\backend\src\main\java\dev\springboot\backend\santiago\usersapp\users_backend\auth\filter\JwtAuthenticationFilter.java
+C:\Users\SANTIAGO\OneDrive\Escritorio\udemy\users-app\backend\src\main\java\dev\springboot\backend\santiago\usersapp\users_backend\auth\filter\JwtValidationFilter.java
+C:\Users\SANTIAGO\OneDrive\Escritorio\udemy\users-app\backend\src\main\java\dev\springboot\backend\santiago\usersapp\users_backend\auth\SimpleGrantedAuthorityJsonCreator.java
+C:\Users\SANTIAGO\OneDrive\Escritorio\udemy\users-app\backend\src\main\java\dev\springboot\backend\santiago\usersapp\users_backend\auth\SpringSecurityConfig.java
+C:\Users\SANTIAGO\OneDrive\Escritorio\udemy\users-app\backend\src\main\java\dev\springboot\backend\santiago\usersapp\users_backend\auth\TokenJwtConfig.java
+C:\Users\SANTIAGO\OneDrive\Escritorio\udemy\users-app\backend\src\main\java\dev\springboot\backend\santiago\usersapp\users_backend\controllers\UserController.java
+C:\Users\SANTIAGO\OneDrive\Escritorio\udemy\users-app\backend\src\main\java\dev\springboot\backend\santiago\usersapp\users_backend\entities\Role.java
+C:\Users\SANTIAGO\OneDrive\Escritorio\udemy\users-app\backend\src\main\java\dev\springboot\backend\santiago\usersapp\users_backend\entities\User.java
+C:\Users\SANTIAGO\OneDrive\Escritorio\udemy\users-app\backend\src\main\java\dev\springboot\backend\santiago\usersapp\users_backend\models\IUser.java
+C:\Users\SANTIAGO\OneDrive\Escritorio\udemy\users-app\backend\src\main\java\dev\springboot\backend\santiago\usersapp\users_backend\models\UserRequest.java
+C:\Users\SANTIAGO\OneDrive\Escritorio\udemy\users-app\backend\src\main\java\dev\springboot\backend\santiago\usersapp\users_backend\repositories\RoleRepository.java
+C:\Users\SANTIAGO\OneDrive\Escritorio\udemy\users-app\backend\src\main\java\dev\springboot\backend\santiago\usersapp\users_backend\repositories\UserRepository.java
+C:\Users\SANTIAGO\OneDrive\Escritorio\udemy\users-app\backend\src\main\java\dev\springboot\backend\santiago\usersapp\users_backend\services\JpaUserDetailsService.java
+C:\Users\SANTIAGO\OneDrive\Escritorio\udemy\users-app\backend\src\main\java\dev\springboot\backend\santiago\usersapp\users_backend\services\UserService.java
+C:\Users\SANTIAGO\OneDrive\Escritorio\udemy\users-app\backend\src\main\java\dev\springboot\backend\santiago\usersapp\users_backend\services\UserServiceImpl.java
+C:\Users\SANTIAGO\OneDrive\Escritorio\udemy\users-app\backend\src\main\java\dev\springboot\backend\santiago\usersapp\users_backend\UsersBackendApplication.java

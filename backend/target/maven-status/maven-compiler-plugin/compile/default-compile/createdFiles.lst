@@ -1,0 +1,16 @@
+dev\springboot\backend\santiago\usersapp\users_backend\entities\Role.class
+dev\springboot\backend\santiago\usersapp\users_backend\entities\User.class
+dev\springboot\backend\santiago\usersapp\users_backend\auth\SimpleGrantedAuthorityJsonCreator.class
+dev\springboot\backend\santiago\usersapp\users_backend\auth\SpringSecurityConfig.class
+dev\springboot\backend\santiago\usersapp\users_backend\auth\filter\JwtAuthenticationFilter.class
+dev\springboot\backend\santiago\usersapp\users_backend\auth\filter\JwtValidationFilter.class
+dev\springboot\backend\santiago\usersapp\users_backend\repositories\RoleRepository.class
+dev\springboot\backend\santiago\usersapp\users_backend\models\UserRequest.class
+dev\springboot\backend\santiago\usersapp\users_backend\controllers\UserController.class
+dev\springboot\backend\santiago\usersapp\users_backend\models\IUser.class
+dev\springboot\backend\santiago\usersapp\users_backend\services\JpaUserDetailsService.class
+dev\springboot\backend\santiago\usersapp\users_backend\repositories\UserRepository.class
+dev\springboot\backend\santiago\usersapp\users_backend\services\UserService.class
+dev\springboot\backend\santiago\usersapp\users_backend\UsersBackendApplication.class
+dev\springboot\backend\santiago\usersapp\users_backend\services\UserServiceImpl.class
+dev\springboot\backend\santiago\usersapp\users_backend\auth\TokenJwtConfig.class
