@@ -2,6 +2,7 @@ import { inject, Injectable } from '@angular/core';
 import { User } from '../core/interfaces/user.interface';
 import { catchError, Observable, tap } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
+import { environment } from '../../environments/environment';
 
 @Injectable({
   providedIn: 'root',
@@ -10,7 +11,7 @@ export class UserService {
   private client = inject(HttpClient);
 
   private users: User[] = [];
-  private url: string = 'http://localhost:8080/api/users';
+  private url: string = `${environment.API_URL}/api/users`;
   constructor() {}
 
   getAllUsers(): Observable<User[]> {

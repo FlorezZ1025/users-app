@@ -3,7 +3,7 @@ import { inject, Injectable } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
 import { login, logout } from '../store/auth/auth.actions';
-
+import { environment } from '../../environments/environment';
 @Injectable({
   providedIn: 'root',
 })
@@ -11,7 +11,7 @@ export class AuthService {
   private client = inject(HttpClient);
   private store = inject(Store<{ auth: any }>);
 
-  private url: string = 'http://localhost:8080';
+  private url: string = `${environment.API_URL}/api/auth`;
   // private _token: string | undefined;
   private _user: any;
 
