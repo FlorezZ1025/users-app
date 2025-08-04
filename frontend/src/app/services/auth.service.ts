@@ -11,7 +11,7 @@ export class AuthService {
   private client = inject(HttpClient);
   private store = inject(Store<{ auth: any }>);
 
-  private url: string = `${environment.API_URL}/api/auth`;
+  private url: string = `${environment.API_URL}`;
   // private _token: string | undefined;
   private _user: any;
 
